@@ -1,10 +1,10 @@
-
+import UserList from '../components/UserList/userList.jsx'
 
 function HomePage() {
 
   return (
     <>
-     <div>It is home page</div>
+     <UserList/>
     </>
   )
 }
