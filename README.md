@@ -1,2 +1,1 @@
-# Frontend-responsive-app
-CSS + React Responsive Assignment
+# Frontend-responsive-page
