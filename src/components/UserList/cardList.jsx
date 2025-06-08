@@ -5,24 +5,24 @@ export default function UserCard({ avatar, name, email, birthDate, address, phon
     <div className={styles.card}>
       <img src={avatar} alt={name} className={styles.avatar} />
       <div className={styles.info}>
-        <p><strong>{name}</strong></p>
-        <p>{email}</p>
+        <p>{name}</p>
+        <p className={styles.placeholderStyle}>{email}</p>
       </div>
       <div className={styles.info}>
-        <p><strong>{birthDate}</strong></p>
-        <p>Birth date</p>
+        <p>{birthDate}</p>
+        <p className={styles.placeholderStyle}>Birth date</p>
+      </div>
+      <div className={`${styles.info} ${styles.address}`}>
+        <p>{address}</p>
+        <p className={styles.placeholderStyle}>Address</p>
       </div>
       <div className={styles.info}>
-        <p><strong>{address}</strong></p>
-        <p>Address</p>
+        <p>{phone}</p>
+        <p className={styles.placeholderStyle}>Phone number</p>
       </div>
       <div className={styles.info}>
-        <p><strong>{phone}</strong></p>
-        <p>Phone number</p>
-      </div>
-      <div className={styles.info}>
-        <p><strong>{password}</strong></p>
-        <p>Password</p>
+        <p>{password}</p>
+        <p className={styles.placeholderStyle}>Password</p>
       </div>
     </div>
   );
