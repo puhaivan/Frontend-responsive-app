@@ -1,10 +1,10 @@
-import './App.css'
+import HomePage from './pages/home-page.jsx'
 
 function App() {
 
   return (
     <>
-     <div>React app</div>
+     <HomePage/>
     </>
   )
 }
